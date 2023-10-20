@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  height: 300px;
+}
+
+#page1 {
+  background-image: url(../images/sg2.png);
+}
+#page2 {
+  background-image: url(../images/sg10.png);
+}
+#page3 {
+  background-image: url(../images/sg8.png);
+}
+#page4 {
+  background-image: url(../images/sg9.png);
+}
+#page5 {
+  background-image: url(../images/sg2.png);
+}
+#page6 {
+  background-image: url(../images/sg11.png);
+}
+#page7 {
+  background-image: url(../images/sg12.png);
+}
