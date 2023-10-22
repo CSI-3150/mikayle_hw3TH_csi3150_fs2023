@@ -12,10 +12,16 @@
 .flex {
   display: flex;
   flex-direction: column;
+  color: white;
+  font-size: larger;
 }
 
 #logo {
-  height: 300px;
+  height: 1000px;
+}
+
+.hidden {
+  display: none;
 }
 
 #page1 {
@@ -24,6 +30,22 @@
 #page2 {
   background-image: url(../images/sg10.png);
 }
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+#pg2Header h2 {
+  font-size: 60px;
+  color: white;
+}
+
+#pg2Text p {
+  font-size: 20px;
+  color: white;
+}
+
 #page3 {
   background-image: url(../images/sg8.png);
 }
