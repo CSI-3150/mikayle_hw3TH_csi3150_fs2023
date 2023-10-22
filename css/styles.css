@@ -8,39 +8,82 @@
   align-items: center;
   background-size: cover;
 }
-
 #page1 {
   background-image: url(../images/sg2.png);
-}
+  color: black;
 
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#page1 h1 {
+  color: black;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.readMoreButton {
+  width: 100px;
+  height: 50px;
+  background-color: yellow;
+}
+.readMoreButton:hover {
+  background-color: rgb(201, 201, 4);
+}
 .flex {
   display: flex;
   flex-direction: column;
   color: white;
 }
-
 #logo {
   height: 300px;
 }
-
 .hidden {
   display: none;
 }
 #page2 {
   background-image: url(../images/sg10.png);
 }
-.row {
+.row2 {
   display: flex;
 }
 .column {
   flex: 50%;
+  padding: 5px;
 }
-
+#pg2Header h2 {
+  color: white;
+  font-size: 100px;
+}
+#pg2Text p {
+  color: white;
+  font-size: 25px;
+}
 #page3 {
   background-image: url(../images/sg8.png);
 }
+#page3 h1 {
+  font-size: 100px;
+  color: white;
+  justify-content: center;
+}
+
 #page4 {
   background-image: url(../images/sg9.png);
+}
+#pg4Header h2 {
+  color: white;
+  font-size: 100px;
+}
+#pg4Text p {
+  color: white;
+  font-size: 25px;
+}
+#pg4Text h2 {
+  color: white;
+  font-size: 50px;
+}
+.row4 {
+  display: flex;
 }
 #page5 {
   background-image: url(../images/sg2.png);
