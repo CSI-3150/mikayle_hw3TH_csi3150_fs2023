@@ -9,23 +9,22 @@
   background-size: cover;
 }
 
+#page1 {
+  background-image: url(../images/sg2.png);
+}
+
 .flex {
   display: flex;
   flex-direction: column;
   color: white;
-  font-size: larger;
 }
 
 #logo {
-  height: 1000px;
+  height: 300px;
 }
 
 .hidden {
   display: none;
-}
-
-#page1 {
-  background-image: url(../images/sg2.png);
 }
 #page2 {
   background-image: url(../images/sg10.png);
@@ -35,15 +34,6 @@
 }
 .column {
   flex: 50%;
-}
-#pg2Header h2 {
-  font-size: 60px;
-  color: white;
-}
-
-#pg2Text p {
-  font-size: 20px;
-  color: white;
 }
 
 #page3 {
