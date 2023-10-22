@@ -88,6 +88,29 @@
 #page5 {
   background-image: url(../images/sg2.png);
 }
+.image-container {
+  position: relative;
+}
+
+.centeredText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black; /* Text color */
+  padding: 10px; /* Add padding for better visibility */
+  border-radius: 5px; /* Add rounded corners */
+}
+.centeredText h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 80px;
+}
+.centeredText p {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 3opx;
+}
 
 #page6 {
   background-image: url(../images/sg11.png);
