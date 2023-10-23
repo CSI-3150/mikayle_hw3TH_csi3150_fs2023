@@ -21,6 +21,14 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+.arrow {
+  border: solid black;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
 .readMoreButton {
   width: 100px;
   height: 50px;
@@ -37,9 +45,7 @@
 #logo {
   height: 300px;
 }
-.hidden {
-  display: none;
-}
+
 #page2 {
   background-image: url(../images/sg10.png);
 }
@@ -115,6 +121,49 @@
 #page6 {
   background-image: url(../images/sg11.png);
 }
+#textField {
+  display: none;
+}
+
 #page7 {
-  background-image: url(../images/sg12.png);
+  width: 100vw;
+  height: 32vh;
+  display: flex;
+}
+.image-container {
+  margin: 0; /* Remove margin between image containers */
+}
+#leftArrow {
+  position: absolute;
+  left: 0%;
+  margin-top: -9%;
+}
+#rightArrow {
+  position: absolute;
+  right: 0%;
+  margin-top: -9%;
+}
+#imageContainer {
+  display: flex;
+}
+
+#page8 {
+  background-image: url(../images/sg17.png);
+  padding-right: 30px;
+}
+#pg8Header h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+#pg8Header p {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#favicon {
+  text-align: center;
+}
+.textField {
+  display: none;
+  color: black;
 }
